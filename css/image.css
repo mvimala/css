@@ -1,0 +1,191 @@
+/* 01-using image size */
+/*.image {
+	text-align:center;
+	padding-left:10px;
+	padding-top:60px;
+	padding-right:30px;
+	padding-bottom:20px;
+	height:100%;
+	width:100%;
+}*/
+/*.image:hover {
+	-webkit-transform:scale(1.2); 	
+	transform:scale(1.2);
+}
+.image {
+	-webkit-transition: all 0.7s linear; 
+	transition: all 0.7s linear;
+}
+/*02-using zoom in content*/
+/*.container{
+	text-align:center;
+	padding-left:10px;
+	padding-top:60px;
+	padding-right:30px;
+	padding-bottom:20px;
+	height:250px;
+	width:100%;
+}*/
+/*.container:hover .image {
+	-webkit-transform:scale(2.4);	
+	transform:scale(2.4);
+} 
+.container {
+	overflow:hidden;
+} 
+.image {
+	-webkit-transition: all 0.7s ease-out; 
+	transition: all 0.7s ease-out;
+}*/
+/* 03-using zoom out content*/
+/*.container1{
+	text-align:center;
+	padding-left:10px;
+	padding-top:60px;
+	padding-right:30px;
+	padding-bottom:20px;
+	height:250px;
+	width:100%;
+}
+.container1:hover .image1 {
+	-webkit-transform:scale(1); 
+	transform:scale(1);
+}
+.container1 {
+	overflow:hidden;
+}
+.image1 {
+	-webkit-transform:scale(2.3);
+	transform:scale(2.3); 
+	-webkit-transition: all 0.7s ease; 
+	transition: all 0.7s ease;
+}
+/* 04-Using  Border radius and shadow effect*/
+/*.img:hover {
+	border-radius:50%; 	
+	box-shadow: 0 10px 6px -6px grey;
+}
+.img {
+	-webkit-transition: all 0.7s ease; 
+	transition: all 0.7s ease;
+}
+/*05-Border radius distortion*/
+/*.img1:hover {
+	border-top-left-radius: 120px; 
+	border-bottom-right-radius: 120px;
+}
+.img1 {
+	border-top-left-radius: 15px; 	
+	border-top-right-radius: 120px; 
+	border-bottom-left-radius: 120px;
+	border-bottom-right-radius: 15px; 
+	-webkit-transition: all 0.7s ease; 
+	transition: all 0.7s ease;
+}
+/*06-Glowing hover*/
+/*.id:hover {
+	-webkit-box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75); 
+	box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+}
+.id {
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(0, 185, 233, .75); 
+	box-shadow: 0px 0px 15px 5px rgba(0, 185, 233, .75); 
+	-webkit-transition: all 0.7s ease; 
+	transition: all 0.7s ease;
+}
+/*07-border radius distoration II*/
+/*.img2:hover {
+	border-top-left-radius: 30px 120px; 
+	border-bottom-right-radius: 30px 120px;
+}
+.img2 {
+	border-top-left-radius: 15px; 
+	border-top-right-radius: 120px 30px; 
+	border-bottom-left-radius: 120px 30px; 
+	border-bottom-right-radius: 15px; 
+	-webkit-transition: all 0.7s ease; 
+	transition: all 0.7s ease;
+}
+/*08-Rotate 2D*/
+/*.img3:hover {
+	-webkit-transform: rotate(45deg); 
+	transform: rotate(45deg);
+}
+.img3 {
+	-webkit-transition: all 0.7s ease; 
+	transition: all 0.7s ease;
+}
+/*09-Skew*/
+/*.img4:hover {
+	-webkit-transform: skew(0deg,20deg); 
+	transform: skew(0deg,20deg);
+}
+.img4 {
+	-webkit-transition: all 0.7s ease; 
+	transition: all 0.7s ease;
+}
+/*10-Opacity and translate */
+/*.img5:hover {
+	-webkit-transform: translate(20px,-50px); 
+	transform: translate(20px,-50px); 
+	opacity: 0.4;
+}
+.img5 {
+	opacity: 1; 
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+/*11-Flip*/
+/*.container3:hover .img6{
+	-webkit-transform: rotateY(180deg); 	
+	-webkit-transform-style: preserve-3d; 
+	transform: rotateY(180deg); 
+	transform-style: preserve-3d;
+}
+.container3 .img6, .container3:hover .img6 {
+	-webkit-transition: all 0.7s ease; 
+	transition: all 0.7s ease;
+}*/
+/*12-Vertical card flip*/
+/*.carddiv {
+	width:200px; 
+	height:150px; 
+	position:relative; 
+	-webkit-transform-style: preserve-3d; 
+	-webkit-transform-origin: 100% 75px; 
+	-webkit-transition: all 0.7s ease; 
+	transform-style: preserve-3d; 
+	transform-origin: 100% 75px; 
+	transition: all 0.7s ease;
+}
+.container:hover .carddiv {
+	-webkit-transform: rotateX(-180deg); 
+	transform: rotateX(-180deg);
+}
+.frontofcard, .backofcard {
+	width:200px; 
+	height:100px; 
+	position:absolute; 
+	left:60px; 
+	-webkit-backface-visibility:hidden; 
+	backface-visibility:hidden;
+}
+.backofcard {
+	padding-top:30px; 
+	-webkit-transform: rotateX(180deg); 
+	transform: rotateX(180deg);
+}*/
+/*13-transformation*/
+.img7:hover {
+	-webkit-box-shadow: 0px 0px 15px 15px #fff; 
+	box-shadow: 0px 0px 15px 15px #fff; 
+	border-radius:50%; 
+	opacity: 0.6; 
+	-webkit-transform: rotate(720deg); 
+	transform: rotate(720deg);
+}
+.img7 {
+	opacity: 1; 
+	-webkit-transition: all 0.7s cubic-bezier(1,-0.75,0.5,1.2); 
+	transition: all 0.7s  cubic-bezier(1,-0.75,0.5,1.2);
+}

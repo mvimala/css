@@ -1,0 +1,32 @@
+.story{
+position:relative; overflow:hidden;
+}
+.story .title-box {
+width:200px; 
+height:200px; 
+position:absolute; 
+top:0; 
+left:0; 
+border-radius:5px; 
+background-color: rgba(0,0,0,0.75); 
+-webkit-box-shadow: inset 0px 0px 5px 2px rgba(255,255,255,.75);
+box-shadow: inset 0px 0px 5px 2px rgba(255,255,255,.75);
+-webkit-transition: all 0.7s ease;
+ transition: all 0.7s ease;
+}
+.story:hover .title-box {
+margin-top:0;
+margin-top:-198px; 
+}
+.headline{
+padding-top: 50px;
+padding-left:30px;
+text-align:center;
+color:red;
+}
+.story .title-box .plus{
+padding-top: 50px;
+padding-left:95px;
+text-align:center;
+color:red;
+}

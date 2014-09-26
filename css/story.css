@@ -1,0 +1,62 @@
+.story li {
+    list-style-type: none;
+}
+/*
+.story li {
+    cursor: pointer;
+    padding: 5px;
+}*/
+.story li:hover .overlay {
+    top: -288px;
+}
+.story li:hover .headline {
+    top: -185px;
+}
+.story li:hover .plus {
+    opacity: 0;
+}
+.story li > div {
+    border: 1px solid #bababa;
+    min-height: 285px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.story li .overlay {
+    background-color: rgba(7, 7, 22, 0.7);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: top 0.2s ease-out 0s;
+    width: 100%;
+    z-index: 3;
+}
+.story li .title-box {
+    display: table;
+    height: 285px;
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+}
+.story li .headline {
+    color: #fff;
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    top: 0;
+    transition: top 0.2s ease-out 0s;
+    vertical-align: middle;
+}
+.story li .plus {
+    background-color: #000;
+    border-radius: 20px;
+    color: #1fbad6;
+    display: block;
+    left: 50%;
+    margin-left: -13px;
+    opacity: 0.8;
+    padding: 5px;
+    position: absolute;
+    top: 200px;
+}

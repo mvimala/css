@@ -1,0 +1,36 @@
+/*body { 
+
+font: 12px arial, helvetica, sans-serif; 
+} 
+#toucan { 
+	display: block; 
+	width: 200px; 
+	height: 63px; 
+	background: url(/home/vimala/html/images33.jpeg); 
+	text-indent: -999em; 
+	position: relative; 
+} 
+#toucan:after { 
+	background: url(/home/vimala/html/images33.jpeg) bottom; 
+	display: block; 
+	position: absolute; 
+	top: 0; 
+	height: 63px; 
+	width: 200px; 
+	opacity: 0; 
+	-webkit-transition: .5s; 
+	transition: .5s; 
+} 
+#toucan:hover:after { 
+	opacity: 1; 
+} 
+*/
+$("#kitten").hover(function(){
+
+    $(this).find("img").fadeOut();
+
+}, function() {
+
+    $(this).find("img").fadeIn();
+
+});

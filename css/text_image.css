@@ -1,0 +1,157 @@
+/*3D-text*/
+.txt:hover {
+	text-shadow: 0 1px 0 #666, tx0 2px 0 #555, 1px 3px 0 #444, 2px 4px 0 #333, 3px 5px 0 #222, 4px 6px 1px #111, 0 0 5px rgba(0,0,0,.6), 0 1px 3px rgba(0,0,0,.5), 1px 3px 5px rgba(0,0,0,.4), 3px 5px 10px rgba(0,0,0,.3), 5px 10px 10px rgba(0,0,0,.2), 10px 20px 20px rgba(0,0,0,.1);
+} 
+.txt {
+	-webkit-transition: all 0.7s ease; 
+	 transition: all 0.7s ease;
+}
+
+/*Blur*/
+.txt1:hover {
+	color: rgba(0,0,0,0);
+	text-shadow: 0 0 20px #FFFF00;
+}
+.txt1 {
+	color: #FF0000; 
+	-webkit-transition: all 0.7s ease; 
+	transition: all 0.7s ease;
+}
+/*Growing text*/
+.txt2:hover {
+	text-shadow: 0px 0 15px #fff;
+}
+.txt2 {
+	-webkit-transition: all 0.7s ease; 
+	transition: all 0.7s ease;
+}
+/* Image with text overlay – fade effect*/
+.container {
+	position:relative;
+}
+.textbox:hover {
+	opacity:1;
+}
+.text {
+	padding-top: 50px;
+}
+.textbox {
+	width:250px;
+	height:240px; 
+	position:absolute; 
+	top:0; 
+	left:0; 
+	opacity:0; 
+	border-radius:5px; 
+	background-color: rgba(0,0,0,0.75); 
+	-webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75); 
+	box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75); 
+	-webkit-transition: all 0.7s ease; 
+	transition: all 0.7s ease;
+}
+/*Image with text overlay – scale effect*/
+.container1 {
+	position:relative;
+}
+.container1 .textbox1 {
+	width:200px; 
+	height:150px; 
+	position:absolute; 
+	top:0; 
+	left:0; 
+	-webkit-transform: scale(0); 
+	transform: scale(0); 
+	border-radius:5px; 
+	background-color: rgba(0,0,0,0.75); 
+	-webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75); 
+	box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+}
+.container1:hover .textbox1 {
+	-webkit-transform: scale(1); 
+	transform: scale(1);
+}
+.text1 {
+	padding-top: 50px;
+}
+.textbox1 {
+	-webkit-transition: all 0.7s ease; 
+	transition: all 0.7s ease;
+}
+/*Image with text overlay – text slide effect*/
+.container2 {
+	position:relative; 
+	overflow:hidden;
+}
+.container2 .textbox2 {
+	width:250px; 
+	height:250px; 
+	position:absolute; 
+	top:0; 
+	left:0; 
+	margin-top:-276px;
+	border-radius:5px; 
+	background-color: rgba(0,0,0,0.75); 
+	-webkit-box-shadow: inset 0px 0px 5px 2px rgba(255,255,255,.75); 
+	box-shadow: inset 0px 0px 5px 2px rgba(255,255,255,.75);
+}
+.container2:hover .textbox2 {
+	margin-top:0;
+}
+.text2 {
+	padding-top: 78px;
+    padding-left: 72px;
+}
+.textbox2 {
+	-webkit-transition: all 0.7s ease; 
+	transition: all 0.7s ease;
+}
+/*Image and text slide hover effect*/
+.container3 {
+	position:relative;
+	overflow:hidden; 
+	width:200px; 
+	height:150px;
+} 
+.container3 .textbox3 {
+	position:absolute; 
+	top:0; 
+	left:0; 
+	width:200px; 
+	height:150px; 
+	margin-left:-210px;
+} 
+.container3:hover .textbox3 {
+	margin-left:0;
+} 
+.container3 img {
+	margin-left:0;
+} 	
+.container3:hover img {
+	margin-left:210px;
+} 
+.text3 {
+	padding-top: 50px;
+} 
+.container3 img, .textbox3 {
+	-webkit-transition: all 0.7s ease; 
+	transition: all 0.7s ease;
+}
+/*Fading two images*/
+.container4 {
+	position:relative; 
+	width:200px; 
+	height:150px;
+}
+.container4 img {
+	position:absolute; 
+	top:0; 
+	left:0; 
+	-webkit-transition: opacity 1.1s ease; 
+	transition: opacity 1.1s ease;
+}
+.container4:hover .image1 {
+	opacity:0;
+}
+
+
+
